@@ -9,7 +9,7 @@ cli_handlers.py: handlers for each cli sub-command
 * Version: 0.0.1
 
 
-This is part of datsbot.com
+This is part of mypackage package
 
 License
 -------
