@@ -48,7 +48,7 @@ mv mypackage ${replacement_string}
 
 # Find all files containing 'TODO' in capital and print a warning
 echo "Searching for files containing 'TODO'..."
-TODO_files=$(grep -rl "TODO" ./${replacement_string})
+TODO_files=$(grep -rl "TODO" ./)
 
 if [ -n "$TODO_files" ]; then
     echo "WARNING: The following files contain the text 'TODO'. Please review them:"
